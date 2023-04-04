@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('./img/Film\ reel\ illustration.png');
+    opacity: .9;
+    background-size: cover;
+    z-index: 1000;
+    
+  }
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+}
+#main {
+    background-color:#17b978;
+    top: 100px;
+    width: 30%;
+    height: 78vh;
+    padding: 50px;
+    box-sizing: border-box;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(120px);
+   
+    
+  }
+  .login-title-otpless{
+    color: white;
+    margin-bottom: 100px;
+    margin-left: -20px;
+    font-size: 35px;
+    transform: translateY(-210px);
+    
+    
+  }
+.login-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 200px;
+    /* background-color: #fcf6f6; */
+    background-color: rgba(173, 216, 230, .45);
+  }
+  
+  .login-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fdf6f6;
+   
+    box-shadow: 0 0 10px rgba(19, 18, 18, 0.2);
+  }
+  
+  .login-label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0069d9;
+  }
+  #otpless{
+    transform: translateY(-80px);
+  }
+  #goto-app{
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #welcome{
+    color: white;
+    text-transform: uppercase;
+  }
+  
