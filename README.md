@@ -14,3 +14,5 @@ popular=https://api.themoviedb.org/3/movie/popular?
 
 
 alll cetogory movi with id and genres=https://api.themoviedb.org/3/genre/movie/list?api_key=637847fe83933d96516345383f4c6389&language=en-US
+
+node module is missing . Download the module after cloning
